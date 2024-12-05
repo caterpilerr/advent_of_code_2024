@@ -5,7 +5,7 @@ import argparse
 url_pattern = 'https://adventofcode.com/2024/day/{}/input'
 code_template = '''input_file = 'input.txt'
 with open(input_file, 'r') as f:
-    input = f.readlines()
+    lines = f.readlines()
 
 def part_one():
     return None
